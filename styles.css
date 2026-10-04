@@ -4,3 +4,22 @@
     box-sizing: border-box;
 }
 
+#scramble {
+    position: fixed;
+    top: 85dvh;
+    left: 40dvw;
+    transform: translate(-50%, -50%);
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    z-index: 10;
+}
+
+#reset {
+    position: fixed;
+    top: 85dvh;
+    left: 60dvw;
+    transform: translate(-50%, -50%);
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    z-index: 10;
+}
