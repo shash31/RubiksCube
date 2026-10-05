@@ -9,7 +9,14 @@
 </head>
 <body>
     <button id="scramble">Scramble</button>
+    <button id="solve">Solve</button>
     <button id="reset">Reset</button>
+    <div class="slider-container">
+        <label for="myRange">Select Speed:</label>
+        <input type="range" min="0" max="100" value="50" step="1" class="slider" id="myRange">
+        <p>Value: <span id="sliderValue">50</span></p>
+    </div>
+
     <script type="module" src="/main.js"></script>
 </body>
 </html>

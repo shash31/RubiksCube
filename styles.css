@@ -14,6 +14,16 @@
     z-index: 10;
 }
 
+#solve {
+    position: fixed;
+    top: 85dvh;
+    left: 50dvw;
+    transform: translate(-50%, -50%);
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    z-index: 10;
+}
+
 #reset {
     position: fixed;
     top: 85dvh;
@@ -23,3 +33,62 @@
     padding: 0.5rem;
     z-index: 10;
 }
+
+.slider-container {
+    position: fixed;
+    top: 93dvh;
+    left: 50dvw;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 300px;
+    font-family: sans-serif;
+    text-align: center;
+    label {
+        color: white;
+        font-size: 1rem;
+        /* margin-bottom: 0.5rem; */
+    }
+}
+
+/* The Slider Track */
+.slider {
+    appearance: none;
+    -webkit-appearance: none; /* For Chrome/Safari */
+    width: 100%;
+    height: 8px;
+    background: #ddd;
+    border-radius: 4px;
+    outline: none;
+}
+
+/* The Slider Thumb (Webkit browsers like Chrome, Safari, Edge) */
+.slider::-webkit-slider-thumb {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #04AA6D;
+    cursor: pointer;
+    transition: background 0.15s ease;
+}
+
+.slider::-webkit-slider-thumb:hover {
+    background: #038053;
+}
+
+/* The Slider Thumb (Firefox) */
+.slider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #04AA6D;
+    cursor: pointer;
+    border: none;
+    transition: background 0.15s ease;
+}
+
+.slider::-moz-range-thumb:hover {
+  background: #038053;
+}
+
