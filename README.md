@@ -1,4 +1,4 @@
-# Rubik's Cube Site (Work in progress)
+# Rubik's Cube Site
 
 Rubik's Cube Simulator and Solver made with three.js
 
