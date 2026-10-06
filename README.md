@@ -7,5 +7,6 @@ Solver uses Old Pochman's method(used for blindfolded solving) as it was easiest
 ## [Link to site](https://shash31.github.io/RubiksCube)
 
 ## Potential improvements
+- More cube sizes
 - Better UI (better styling and maybe more options like timer, leaderboards, undo etc.)
 - More efficient different solver

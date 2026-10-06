@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+/* #cubeSize {
+    position: fixed;
+    top: 85dvh;
+    left: 35dvw;
+    transform: translate(-50%, -50%);
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    z-index: 10;
+} */
+
 #scramble {
     position: fixed;
     top: 85dvh;

@@ -216,6 +216,11 @@ document.addEventListener("keydown", (event) => {
   }
 });
 
+// const cubeSelect = document.getElementById('cubeSize');
+// cubeSelect.addEventListener('change', (event) => {
+  
+// })
+
 const scrambleButton = document.getElementById('scramble');
 scrambleButton.addEventListener('click', () => {
   const moves = ['F', 'B', 'U', 'D', 'R', 'L']

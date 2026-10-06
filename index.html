@@ -8,13 +8,17 @@
     <title>Rubik's Cube</title>
 </head>
 <body>
+    <!-- <select id="cubeSize">
+        <option value="2">2x2</option>
+        <option value="3" selected>3x3</option>
+        <option value="4">4x4</option>
+    </select> -->
     <button id="scramble">Scramble</button>
     <button id="solve">Solve</button>
     <button id="reset">Reset</button>
     <div class="slider-container">
         <label for="myRange">Select Speed:</label>
         <input type="range" min="0" max="100" value="50" step="1" class="slider" id="myRange">
-        <p>Value: <span id="sliderValue">50</span></p>
     </div>
 
     <script type="module" src="/main.js"></script>
